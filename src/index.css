@@ -10,10 +10,35 @@ ul.header li {
   display: inline;
   list-style-type: none;
   margin: 0;
+
+}
+.data{
+  padding-top: 150px;
+  text-align: center;
+  color:white;
+
+  font-size: 30px;
+}
+p.data{
+font-family: 'Mali', cursive;
 }
 ul.header {
-  background-color: #111;
+  background-color: ;
   padding: 0;
+  background-image:url(back.jpg);
+  height:600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.first{
+  border: 1px solid #ddd;
+  border-radius: 2spx;
+  padding: 12px;
+   box-shadow: 5px 5px grey;
+  width:250px;
+  height: 250px;
 }
 ul.header li a {
   color: #FFF;
@@ -21,6 +46,8 @@ ul.header li a {
   text-decoration: none;
   padding: 20px;
   display: inline-block;
+  font-family: 'Mali', cursive;
+  font-size: 20px;
 }
 .content {
   background-color: #FFF;
