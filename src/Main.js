@@ -14,14 +14,14 @@ class Main extends Component {
     return (
       <HashRouter>
       <div>
-      <h1>Mkate poa website</h1>
+      
       <ul className="header">
       <li><NavLink to="/">Home</NavLink></li>
       <li><NavLink to="/services">Services</NavLink></li>
       <li><NavLink to="/contact">Contact</NavLink></li>
       </ul>
       <div className="content">
-      <Route path="/" component={Home}/>
+      <Route exact path="/" component={Home}/>
       <Route path="/services" component={Services}/>
       <Route path="/Contact" component={Contact}/>
       </div>
