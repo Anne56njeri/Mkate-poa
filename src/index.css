@@ -3,74 +3,80 @@ body {
   padding: 20px;
   margin: 0;
 }
+
 h1, h2, p, ul, li {
   font-family: sans-serif;
 }
+
 ul.header li {
   display: inline;
   list-style-type: none;
   margin: 0;
 
 }
+
+.contact{
+border-radius: 50%;
+height:170px;
+width:170px;
+}
+
 .row{
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .card-deck{
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .card-title{
   font-family: 'Mali', cursive;
   color:orange;
 }
-.card{
- box-shadow: 10px 10px 5px grey;
-}
+
 .card-text{
   font-family: 'Mali', cursive;
 }
-.data{
-  padding-top: 150px;
-  text-align: center;
-  color:white;
 
-  font-size: 40px;
+.data{
+padding-top: 150px;
+text-align: center;
+color:white;
+font-size: 40px;
 }
-p.data{
-font-family: 'Mali', cursive;
-}
+
 .center{
   font-family: 'Mali', cursive;
 }
-ul.header {
-  background-color: ;
-  padding: 0;
 
-  background-image:url(back.jpg);
-  height:600px;
-  background-repeat: no-repeat;
+ul.header {
   background-position: center;
+  background-repeat: no-repeat;
+  background-image:url(back.jpg);
+  height: 600px;
   background-size: cover;
 
 }
+
 .first{
   border: 1px solid #ddd;
   border-radius: 2spx;
-  padding: 12px;
-
-
   height: 400px;
   width:400px;
   box-shadow: 10px 10px 8px #888888;
 }
+
 .text{
-  font-family: 'Mali', cursive;
+font-family: 'Mali', cursive;
 }
+
 .head {
-  font-family: 'Mali', cursive;
-  color:orange;
+font-family: 'Mali', cursive;
+color:orange;
 }
+
 ul.header li a {
   color: #FFF;
   font-weight: bold;
@@ -80,14 +86,29 @@ ul.header li a {
   font-family: 'Mali', cursive;
   font-size: 20px;
 }
+
 .content {
   background-color: #FFF;
   padding: 20px;
 }
+
+.car1{
+  border: 1px solid #ddd;
+  border-radius: 2spx;
+  height: 400px;
+  width:400px;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.card{
+box-shadow: 10px 10px 8px #888888;
+}
+
+.content li{
+  margin-bottom: 10px;
+}
+
 .content h2 {
   padding: 0;
   margin: 0;
-}
-.content li{
-  margin-bottom: 10px;
 }
