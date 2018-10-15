@@ -68,7 +68,7 @@ class Home extends Component {
         <div className="card-body">
           <h5 className="card-title">Samantha Woods</h5>
           <p className="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis</p>
-          <p className="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <p className="card-text"><small class="text-muted">What they had to say</small></p>
         </div>
       </div>
       <div className="card">
@@ -76,7 +76,7 @@ class Home extends Component {
         <div className="card-body">
           <h5 className="card-title">Yvonne Orji</h5>
           <p className="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis </p>
-          <p className="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <p className="card-text"><small class="text-muted">What they had to say</small></p>
         </div>
       </div>
       <div className="card">
@@ -84,7 +84,7 @@ class Home extends Component {
         <div className="card-body">
           <h5 className="card-title">Ole Dume</h5>
           <p className="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis</p>
-          <p className="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <p className="card-text"><small class="text-muted">What they had to say</small></p>
         </div>
       </div>
     </div>

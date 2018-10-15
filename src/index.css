@@ -25,7 +25,10 @@ ul.header li {
   color:orange;
 }
 .card{
- box-shadow: 10px 10px 5px grey;  
+ box-shadow: 10px 10px 5px grey;
+}
+.card-text{
+  font-family: 'Mali', cursive;
 }
 .data{
   padding-top: 150px;
@@ -43,6 +46,7 @@ font-family: 'Mali', cursive;
 ul.header {
   background-color: ;
   padding: 0;
+
   background-image:url(back.jpg);
   height:600px;
   background-repeat: no-repeat;
@@ -54,9 +58,11 @@ ul.header {
   border: 1px solid #ddd;
   border-radius: 2spx;
   padding: 12px;
-   box-shadow: 5px 5px grey;
-  width:400px;
+
+
   height: 400px;
+  width:400px;
+  box-shadow: 10px 10px 8px #888888;
 }
 .text{
   font-family: 'Mali', cursive;

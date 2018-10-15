@@ -30,7 +30,9 @@ class Main extends Component {
       <Route path="/Contact" component={Contact}/>
       </div>
       </div>
+
       </HashRouter>
+
     );
   }
 }
