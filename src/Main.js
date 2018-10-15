@@ -20,8 +20,8 @@ class Main extends Component {
       <li><NavLink to="/services">Services</NavLink></li>
       <li><NavLink to="/contact">Contact</NavLink></li>
       <div className="data">
-      <p ><b>Mkate poa</b></p>
-      <p>A <b>little </b> bliss in every bite</p>
+      <p className="center"><b>Mkate poa</b></p>
+      <p className="center">A <b>little </b> bliss in every bite</p>
       </div>
       </ul>
       <div className="content">
